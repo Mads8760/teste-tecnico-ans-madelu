@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Relatorio_cadop.csv
+*.zip
+dados_extraidos/
+dados_cadastrais/
+consolidado_despesas.csv
+consolidado_despesas.zip
+*.csv
+!despesas_agregadas.csv
