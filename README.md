@@ -18,7 +18,8 @@ Como analista vinda do Power BI, priorizei a simplicidade e performance. Utilize
 
 ### 3. Normalização e Limpeza (Tarefa 1.2 e 1.3)
 * **Mapeamento Flexível:** Implementei um dicionário de mapeamento para tratar a inconsistência nos nomes das colunas (ex: `VL_SALDO_FINAL` vs `Valor Despesas`).
-* **Tratamento de Inconsistências:** * Removi valores negativos/zerados por serem contabilmente inconsistentes para despesas de sinistros.
+* **Tratamento de Inconsistências:**
+    * Removi valores negativos/zerados por serem contabilmente inconsistentes para despesas de sinistros.
     * Mantive o primeiro registro em caso de CNPJs duplicados para assegurar a integridade da chave primária.
 
 ### 4. Validação e Enriquecimento (Tarefa 2)
